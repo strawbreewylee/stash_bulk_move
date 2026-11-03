@@ -6,7 +6,7 @@
 // and the filesystem change together. It never touches the filesystem itself and never falls back
 // to anything else when a move fails.
 //
-// Behaviour of moveFiles (Stash v0.31, as reported by the original author's live tests):
+// Behaviour of moveFiles that this module relies on (re-confirm against your Stash version):
 //   * takes FILE ids (not scene/image ids): moveFiles(input: { ids, destination_folder })
 //   * destination_folder must be inside a configured library path, else the call fails
 //   * missing destination folders are created; files keep their basename and their file id
