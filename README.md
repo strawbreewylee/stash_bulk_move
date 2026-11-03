@@ -6,6 +6,8 @@
 Select many scenes, images or zip/cbz archives in [Stash](https://github.com/stashapp/stash), pick a destination folder, preview, and move them
 in one go. It uses **Stash's own `moveFiles` mutation**, so Stash's database always follows the files. Nothing is moved behind Stash's back, and there is no fallback to the operating system if Stash refuses a move.
 
+In other words, select stuff - now there's a nice move button! 
+
 > **Requires the [Stash UI](https://discourse.stashapp.cc/t/stash-ui/17496) plugin, version 3.80.0 or newer** (the version with extension API v2 and the
 > `bulk.actions` slot). The button does not appear in classic Stash. The CLI needs only Python 3.8+ and no extra packages.
 
