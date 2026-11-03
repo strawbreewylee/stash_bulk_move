@@ -13,7 +13,7 @@ In other words, select stuff - now there's a nice move button!
 
 
 ## Installing the plugin manually
-Download `bulkMove-<version>.zip` from the [Releases](https://github.com/<your-user>/stash-bulk-move/releases) page and unzip it into your /stash/plugins folder so you end up with 
+Download the repo from this page (green button, download zip) and unzip it into your /stash/plugins folder so you end up with 
 
 -stash
 --plugins
