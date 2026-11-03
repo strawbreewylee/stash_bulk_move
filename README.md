@@ -12,8 +12,16 @@ In other words, select stuff - now there's a nice move button!
 
 - [Stash UI](https://discourse.stashapp.cc/t/stash-ui/17496) plugin, version 3.80.0 or newer** (the version with extension API v2 and the `bulk.actions` slot). The button does not appear in classic Stash.
 
+## Installing via plugins menu
+
+Settings > Plugins > Add source
+name: strawbreewylee_plugins
+url: https://strawbreewylee.github.io/strawbreewylee_plugins/main/index.yml
+
+
 
 ## Installing the plugin manually
+
 Download the repo from this page (green button, download zip) and unzip it into your /stash/plugins folder so you end up with 
 
 -stash
