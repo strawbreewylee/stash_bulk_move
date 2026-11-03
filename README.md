@@ -31,20 +31,25 @@ Download the repo from this page (green button, download zip) and unzip it into 
 
 
 Now, 
+
 Stash → Settings → Plugins → **Reload plugins**, then hard-refresh the browser (Ctrl+f5)
-3. In Stash UI open **Scenes**, **Images** or **Galleries**, select items: **Move to folder…** appears in the selection bar.
+
+In Stash UI open **Scenes**, **Images** or **Galleries**, select items: **Move to folder…** appears in the selection bar.
 
 
 ## Using it
+
 1. Select multiple images, scenes, or zips you'd like to move
 2. On the right, next to "Delete" there will be a move button
 3. Confirm the move destination on the right sidebar
 
 ## What it does not do
+
 - Does not move side files (funscripts, caption files) that lie next to a video
 - Will not update leftover generated sprites, transcodes, etc. This is why the Watchtower plugin can come in handy here
 
 ## AI assistance
+
 This project was developed with AI assistance (Claude, by Anthropic).
 
 ## License
