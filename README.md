@@ -1,4 +1,4 @@
-100% vibe coded
+
 
 
 # Bulk Move for Stash
@@ -10,16 +10,11 @@ in one go. It uses **Stash's own `moveFiles` mutation**, so Stash's database alw
 > `bulk.actions` slot). The button does not appear in classic Stash. The CLI needs only Python 3.8+ and no extra packages.
 
 
-
-
-
-## Install via Stash's plugins menu
-
+## Installing via Stash plugins menu
 Settings > Plugins > Add source
 
 
-## Install the plugin manually
-
+## Installing the plugin manually
 Download `bulkMove-<version>.zip` from the [Releases](https://github.com/<your-user>/stash-bulk-move/releases) page and unzip it into your /stash/plugins folder so you end up with 
 
 -stash
@@ -36,33 +31,16 @@ Stash → Settings → Plugins → **Reload plugins**, then hard-refresh the bro
 
 
 ## Using it
-
 1. Select multiple images, scenes, or zips you'd like to move
 2. On the right, next to "Delete" there will be a move button
 3. Confirm the move destination on the right sidebar
 
-## Behaviour this plugin relies on
-
-* `moveFiles(input: { ids, destination_folder })` takes **file** IDs. Scenes, images and galleries are resolved to their files first.
-* A single `moveFiles` call is all-or-nothing, including folders it created. A name clash fails the call; nothing is overwritten.
-* Files keep their basename and file ID. Moving a file into the folder it is already in is a no-op ("already there"). Files inside zip archives
-  cannot be moved.
-* Stash does **not** move side files (funscripts, caption files) that lie next to a video.
-
-## Limitations
-
-* **Funscripts and caption files next to a video are not moved by Stash.** Scenes that have them are flagged in the preview; move those side
-  files yourself or the scene loses them.
-* The "already exists" pre-check uses what Stash has indexed. A file on disk that was never scanned is caught by Stash itself at move time and
-  reported as a failed move; the file stays where it was.
-* Not transactional across files: if a run is stopped or interrupted, files already moved stay moved. Stash and disk stay consistent for each
-  file, and the report says which.
-* Scenes, images and zip/cbz archives only. English only.
+## What it does not do
+- Does not move side files (funscripts, caption files) that lie next to a video
+- Will not update leftover generated sprites, transcodes, etc. This is why the Watchtower plugin can come in handy here
 
 ## AI assistance
-
-This project was developed with AI assistance (Claude, by Anthropic). The code was reviewed and tested by the maintainer, who takes full
-responsibility for it.
+This project was developed with AI assistance (Claude, by Anthropic).
 
 ## License
 
