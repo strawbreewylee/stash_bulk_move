@@ -15,8 +15,11 @@ In other words, select stuff - now there's a nice move button!
 ## Installing via plugins menu
 
 Settings > Plugins > Add source
+
 name: strawbreewylee_plugins
+
 url: https://strawbreewylee.github.io/strawbreewylee_plugins/main/index.yml
+
 
 
 
