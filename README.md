@@ -10,10 +10,6 @@ in one go. It uses **Stash's own `moveFiles` mutation**, so Stash's database alw
 > `bulk.actions` slot). The button does not appear in classic Stash. The CLI needs only Python 3.8+ and no extra packages.
 
 
-## Installing via Stash plugins menu
-Settings > Plugins > Add source
-
-
 ## Installing the plugin manually
 Download `bulkMove-<version>.zip` from the [Releases](https://github.com/<your-user>/stash-bulk-move/releases) page and unzip it into your /stash/plugins folder so you end up with 
 
