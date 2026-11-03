@@ -16,12 +16,19 @@ In other words, select stuff - now there's a nice move button!
 Download the repo from this page (green button, download zip) and unzip it into your /stash/plugins folder so you end up with 
 
 -stash
+
 --plugins
+
 ---stash-bulk-move
+
 ----bulkMove
+
 ----README.md
+
 ----stash_bulk_move.py
+
 ----stash_bulk_move.example.json
+
 
 Now, 
 Stash → Settings → Plugins → **Reload plugins**, then hard-refresh the browser (Ctrl+f5)
