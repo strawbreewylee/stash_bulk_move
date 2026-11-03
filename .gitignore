@@ -1,4 +1,3 @@
-# CLI config and logs can contain credentials or file paths: never commit them
 stash_bulk_move.json
 *.log
 report*.json
