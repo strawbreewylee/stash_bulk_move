@@ -1,6 +1,0 @@
-stash_bulk_move.json
-*.log
-report*.json
-__pycache__/
-*.pyc
-dist/
